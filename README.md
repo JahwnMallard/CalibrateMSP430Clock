@@ -1,15 +1,5 @@
-/*
- * Author: C2C John Miller
- * Library to calibrate the clock of the MSP430 to either 1, 8, 12, or 16 MHz
- */
+#Calibrate MSP 430 Clock
+##API
 
-
-/*---------------------------------------------------
- Subroutine Name: calibrateClock
- Author: C2C John Miller, USAF
- Function: calibrates clock of the MSP430 to 1, 8 12  or 16 MHz
- Inputs:frequency (must be 1, 8, 12, or 16)
- Outputs: none
- Subroutines used: none
- ---------------------------------------------------*/
-void calibrateClock(char frequency);
+- `void calibrateClock(char frequency)`
+        - Sets the clock frequency of the MSP430 to 1, 8, 12, or 16 MHz
